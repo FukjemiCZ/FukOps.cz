@@ -55,7 +55,7 @@ export default defineUserConfig({
     sidebar: {
       "/songs": [
         {
-          text: "Songs",
+          text: "Blogs",
           children: songFiles,
         },
       ],
