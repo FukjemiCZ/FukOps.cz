@@ -13,11 +13,11 @@ import { description } from "../../package.json";
 const __dirname = getDirname(import.meta.url);
 
 export default defineUserConfig({
-  lang: "en-US",
+  lang: "cs-CZ",
   // Global title in HTML <head>.
   // If page has title (in frontmatter) or h1 then: <page title/h1> | <global title>
   // e.g <title>Vuepress-DecapCMS-Netlify | VueDN</title>
-  title: "VueDN",
+  title: "FukOps.CZ",
   // Global description in in HTML <head>.
   // If page has description (in frontmatter) then: <global description is replaced by <page description>
   // <meta name="description" content="...">
@@ -37,7 +37,7 @@ export default defineUserConfig({
     notFound: ["There's nothing here. If you're looking for DecapCMS, manually enter `/admin` to the root site path to navigate directly to it."],
     navbar: [
       {
-        text: "Songs",
+        text: "Blog",
         // notice the trailing / (for the automatic next and prev links based on the sidebar)
         link: "/songs/",
       },
@@ -46,8 +46,8 @@ export default defineUserConfig({
         link: "/template/",
       },
       {
-        text: "GitHub",
-        link: "https://github.com/NdagiStanley/VueDN",
+        text: "Author",
+        link: "https://fukjemi.cz",
       },
     ],
     // notice there's a difference between /songs and /songs/
