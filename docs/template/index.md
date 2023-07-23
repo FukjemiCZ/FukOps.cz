@@ -1,55 +1,43 @@
 ---
 contributors: false
-lastUpdated: false
+lastUpdated: true
 ---
 
-# Using this template
 
-## Prerequisites
+Ahoj!
 
-- [GitHub account](https://github.com/join)
-- [Netlify account](https://app.netlify.com/)
+Vítejte na našem blogu zaměřeném na deploymenty opensource aplikací do Kubernetes! Naším cílem je poskytnout vám komplexní informace o základech Kubernetes a zároveň vám představit praktické ukázky deploymentů s důkladným vysvětlením.
 
-## Setup
+I. Úvod do Kubernetes:
+   1. ~~Co je Kubernetes a proč ho používat?~~
+   2. ~~Architektura Kubernetes: Master a Node komponenty~~
+   3. Základní objekty: Pod, Deployment, Service, Replicaset atd.
+   4. ~~Instalace Kubernetes: Lokálně nebo na cloudové platformě.~~
 
-1. Fork the [repository](https://github.com/NdagiStanley/VueDN)
-2. Add a site and link the repository on Netlify
-3. Deploy
+II. Základy Kubernetes:
+   1. ~~Práce s kubectl: Základní příkazy a používání kontextů.~~
+   2. ~~Správa Kubernetes objektů pomocí YAML manifestů.~~
+   3. ~~Nasazení jednoduché aplikace: Praktický průvodce od nahrání kontejneru po běh aplikace.~~
+   4. ~~Škálování a správa stavů aplikací.~~
 
-To do the three steps above click this button:
+III. Ukázky Deploymentů:
+   1. ~~Deploy webové aplikace s využitím Kubernetes Deployment.~~
+      - ~~Nastavení replik a strategie pro vyvažování zátěže.~~
+      - ~~Použití ConfigMap pro konfiguraci aplikace.~~
+   2. ~~StatefulSet: Nasazení a správa stateful aplikací.~~
+      - ~~Ukládání dat v persistentním úložišti.~~
+   3. ~~Správa tajemství v Kubernetes: Využití Secrets pro citlivé informace.~~
+   4. ~~Horizontální i vertikální škálování aplikací.~~
 
-<div>
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/NdagiStanley/VueDN"><img src="/button.svg" alt="Deploy to Netlify" /></a>
-</div>
+IV. Pokročilé témata:
+   1.~~Monitorování a logování v Kubernetes.~~
+   2.~~Správa konfigurace s Helm balíčky.~~
+   3.~~Continuous Deployment s pomocí GitOps.~~
+   4.~~Bezpečnostní aspekty Kubernetes a Best Practices.~~
 
-### Continue setup
+Věříme, že tento blog vám poskytne cenné informace a návody pro práci s Kubernetes, bez ohledu na vaši úroveň znalostí. Pokud máte nějaké konkrétní otázky nebo náměty na témata, která byste chtěli vidět, neváhejte se s námi podělit v komentářích.
 
-1. [Enable Identity integration](https://docs.netlify.com/visitor-access/identity/#enable-identity-in-the-ui) for your site, to enable Authentication for the CMS
+Děkujeme za tvoji podporu a těšíme se na sdílení znalostí s tebou!
 
-    - Go to **Netlify Identity** integration in your netlify site:
-    <br>Path: Your netlify site's path with `/integrations/identity/netlify` appended
-    <br>e.g.: `https://app.netlify.com/sites/vuedn/integrations/identity/netlify` if your site's name is `vuedn`
-    - and click **Enable**
-
-2. **Enable Git Gateway** in Identity settings
-
-    - Go to **Identity** settings
-    <br>Path: Your netlify site's path with `/settings/identity#services` appended
-    - and click **Enable Git Gateway**
-
-3. In the live site, go to `/admin` path of your site and sign up
-    <br>Please note:
-    - Due to browser extensions, the sign-up modal or Social Auth may not appear. If this happens, set up on an incognito tab.
-    - `/admin` should be entered manually or linked from another site not your VuePress site. Otherwise, it'll show a 404 page (rightfully so) since the *admin* page is not served by VuePress rather by **Netlify Identity** and **DecapCMS**.
-4. You're set!
-5. Bonus: Update *Registration preferences* and *External providers* in Identity settings, Registration section
-    <br>Path: Your netlify site's path with `/settings/identity#registration` appended
-
-## Reference
-
-- [VuePress Frontmatter](https://vuepress.github.io/reference/frontmatter.html)
-- [DecapCMS](https://decapcms.org/)
-- [DecapCMS Configuration Options](https://decapcms.org/docs/configuration-options)
-- [DecapCMS Git Gateway backend](https://decapcms.org/docs/git-gateway-backend/)
-- [Git-gateway](https://docs.netlify.com/visitor-access/git-gateway/)
-- [Netlify Identity](https://docs.netlify.com/visitor-access/identity/)
+S pozdravem,
+FukOps.cz

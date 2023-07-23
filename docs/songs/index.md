@@ -3,47 +3,42 @@ contributors: false
 lastUpdated: false
 ---
 
-# All songs
+# FukOps.CZ
 
-All pages here contain songs (in Swahili) that I settle on and decide to learn their lyrics, periodically.
+Ahoj!
 
-::: details
+Vítejte na našem blogu zaměřeném na deploymenty opensource aplikací do Kubernetes! Naším cílem je poskytnout vám komplexní informace o základech Kubernetes a zároveň vám představit praktické ukázky deploymentů s důkladným vysvětlením.
 
-`songs` here (the directory and contents) is used as an example of document directory that will be a collection in Decap CMS. The `index.md` files are within directories named in the format "YYYY-MM-DD".
+I. Úvod do Kubernetes:
+   1. ~~Co je Kubernetes a proč ho používat?~~
+   2. ~~Architektura Kubernetes: Master a Node komponenty~~
+   3. Základní objekty: Pod, Deployment, Service, Replicaset atd.
+   4. ~~Instalace Kubernetes: Lokálně nebo na cloudové platformě.~~
 
-Update as needed.
+II. Základy Kubernetes:
+   1. ~~Práce s kubectl: Základní příkazy a používání kontextů.~~
+   2. ~~Správa Kubernetes objektů pomocí YAML manifestů.~~
+   3. ~~Nasazení jednoduché aplikace: Praktický průvodce od nahrání kontejneru po běh aplikace.~~
+   4. ~~Škálování a správa stavů aplikací.~~
 
-```txt:no-line-numbers
-. (Root)
-├── docs
-│   ├── .vuepress
-│   │   │   ...
-│   │   └── config.ts
-│   ├── README.md
-│   └── songs
-│       ├── 2023-04-10
-│       │   └── index.md
-│       ├── 2023-04-17
-│       │   └── index.md
-│       │   ...
-│       └── index.md (Current file)
-│   ...
-├── README.md
-└── yarn.lock
-```
+III. Ukázky Deploymentů:
+   1. ~~Deploy webové aplikace s využitím Kubernetes Deployment.~~
+      - ~~Nastavení replik a strategie pro vyvažování zátěže.~~
+      - ~~Použití ConfigMap pro konfiguraci aplikace.~~
+   2. ~~StatefulSet: Nasazení a správa stateful aplikací.~~
+      - ~~Ukládání dat v persistentním úložišti.~~
+   3. ~~Správa tajemství v Kubernetes: Využití Secrets pro citlivé informace.~~
+   4. ~~Horizontální i vertikální škálování aplikací.~~
 
-:::
+IV. Pokročilé témata:
+   1.~~Monitorování a logování v Kubernetes.~~
+   2.~~Správa konfigurace s Helm balíčky.~~
+   3.~~Continuous Deployment s pomocí GitOps.~~
+   4.~~Bezpečnostní aspekty Kubernetes a Best Practices.~~
 
-The pages have a standard format.
+Věříme, že tento blog vám poskytne cenné informace a návody pro práci s Kubernetes, bez ohledu na vaši úroveň znalostí. Pokud máte nějaké konkrétní otázky nebo náměty na témata, která byste chtěli vidět, neváhejte se s námi podělit v komentářích.
 
-## Format
+Děkujeme za tvoji podporu a těšíme se na sdílení znalostí s tebou!
 
-- Title
-- Links
-  - Youtube
-  - Spotify
-- Lyrics (with translations if available)
-
-## Popular songs
-
-- [Tuko tayari (Mwanga Band)](/songs/2023-04-10)
+S pozdravem,
+FukOps.cz
