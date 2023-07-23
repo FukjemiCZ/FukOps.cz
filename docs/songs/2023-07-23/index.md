@@ -3,7 +3,7 @@ contributors: false
 externalLinkIcon: true
 date: 2023-07-23
 ---
-# Objekty v kubernetes
+# Základní objekty
 V Kubernetes existuje několik základních objektů, které slouží k definici stavu a chování aplikací a služeb v clusteru. Tyto objekty popisují kontejnery, jejich konfigurace, požadavky na zdroje, služby, síťová pravidla a další aspekty potřebné pro nasazení a provoz aplikací. Zde je seznam některých základních objektů v Kubernetes:
 
 1. **Pod**: Nejmenší a základní nasaditelná jednotka v Kubernetes. Reprezentuje jednu nebo více spolu provázaných kontejnerů, které sdílejí síť a úložiště na stejném pracovním uzlu.
