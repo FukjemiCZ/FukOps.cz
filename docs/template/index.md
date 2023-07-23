@@ -35,7 +35,7 @@ IV. Pokročilé témata:
    3.~~Continuous Deployment s pomocí GitOps.~~
    4.~~Bezpečnostní aspekty Kubernetes a Best Practices.~~
 
-Věříme, že tento blog vám poskytne cenné informace a návody pro práci s Kubernetes, bez ohledu na vaši úroveň znalostí. Pokud máte nějaké konkrétní otázky nebo náměty na témata, která byste chtěli vidět, neváhejte se s námi podělit v komentářích.
+Věříme, že tento blog vám poskytne cenné informace a návody pro práci s Kubernetes, bez ohledu na vaši úroveň znalostí. Pokud máte nějaké konkrétní otázky nebo náměty na témata, která byste chtěli vidět, neváhejte se nám ozvat na inspiruj@fukops.cz
 
 Děkujeme za tvoji podporu a těšíme se na sdílení znalostí s tebou!
 
