@@ -42,7 +42,7 @@ export default defineUserConfig({
         link: "/songs/",
       },
       {
-        text: "Using this template",
+        text: "Tutorial",
         link: "/template/",
       },
       {
