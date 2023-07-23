@@ -6,28 +6,11 @@ date: 2023-07-23
 ---
 # Přehled klíčových objektů v Kubernetes (K8S)
 
-![Kubernetes Logo](https://www.example.com/k8s_logo.png)
+![Kubernetes Logo](https://miro.medium.com/v2/resize:fit:400/format:webp/1*viLY3qG94sI3p4dqCGeEwA.png)
 
 Kubernetes (známý také jako K8S) je populární open-source platforma pro orchestraci kontejnerů. Jeho hlavním cílem je usnadnit správu, nasazení a škálování kontejnerových aplikací. Abychom pochopili, jak Kubernetes dosahuje těchto cílů, je důležité se seznámit s jeho klíčovými objekty. Tyto objekty definují stav a chování aplikací a služeb v Kubernetes clusteru.
 
-## 1. Pod
-
-Pod je nejmenší a základní nasaditelnou jednotkou v Kubernetes. Reprezentuje jednu nebo více spolu provázaných kontejnerů, které sdílejí síť a úložiště na stejném pracovním uzlu. Pod poskytuje izolaci zdrojů pro kontejnery uvnitř něj, což umožňuje, aby mohly spolu komunikovat a sdílet data. Pod je dočasná entita, což znamená, že jej lze snadno vyměnit nebo znovu vytvořit.
-
-```yaml
-apiVersion: v1
-kind: Pod
-metadata:
-  name: mojepod
-spec:
-  containers:
-  - name: kontejner1
-    image: nginx:latest
-  - name: kontejner2
-    image: busybox:latest
-```
-
-## 2. Deployment
+## 1. Deployment
 
 Deployment abstrahuje a zjednodušuje správu replik Podů. Zajišťuje, že počet replik kontejnerů odpovídá požadovanému stavu, což zajišťuje dostupnost a škálovatelnost aplikace. Deployment umožňuje snadnou aktualizaci aplikace na novou verzi bez výpadku služby. Pokud chceme změnit stav aplikace nebo provést aktualizaci, stačí upravit specifikaci Deploymentu.
 
@@ -49,6 +32,23 @@ spec:
       containers:
       - name: kontejner
         image: mojeaplikace:1.0
+```
+
+## 2. Pod
+
+Pod je nejmenší a základní nasaditelnou jednotkou v Kubernetes. Reprezentuje jednu nebo více spolu provázaných kontejnerů, které sdílejí síť a úložiště na stejném pracovním uzlu. Pod poskytuje izolaci zdrojů pro kontejnery uvnitř něj, což umožňuje, aby mohly spolu komunikovat a sdílet data. Pod je dočasná entita, což znamená, že jej lze snadno vyměnit nebo znovu vytvořit.
+
+```yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mojepod
+spec:
+  containers:
+  - name: kontejner1
+    image: nginx:latest
+  - name: kontejner2
+    image: busybox:latest
 ```
 
 ## 3. Service
