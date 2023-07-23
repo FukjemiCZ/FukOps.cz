@@ -1,21 +1,23 @@
 ---
 home: true
-title: Vuepress-Decap-Netlify
-tagline: A Vuepress boilerplate integrated with Decap CMS hosted on Netlify
-heroText: Vuepress-Decap-Netlify
+title: FukOps.CZ
+tagline: Průvodce kubernetes deploymentů
+heroText: FukOps.CZ
 heroImage: hero.png
 actions:
-  - text: Set up this template
+  - text: Zjisti více
     link: /template
     type: primary
 ---
 
 <div class="center">
 <div class="spaced">
-  This template is built on VuePress, allow access and editing via DecapCMS, and is hosted on Netlify. <br><b>"Songs?"</b> you wonder... <a href="https://md.engineer/" target="_blank">The author</a> uses <a href="/songs/">songs</a> (as an example of content)
+  Vstupte do světa Kubernetes! Náš <a href="/songs/">blog</a> je plný užitečných informací a praktických návodů, které vás provedou deploymenty opensource aplikací vhodných k provozování v orchestrovaných kontejnerech. Od základů až po pokročilá témata, objevíte zde vše, co potřebujete k úspěšnému nasazení aplikací do Kubernetes prostředí. Připojte se k nám a získejte hlubší pochopení Kubernetes a jeho využití v reálných scénářích. Buďte součástí inovativního světa moderního softwarového nasazování!
 </div>
 <div class="spaced">
-  To use the CMS, <a href="/template/#setup">set up this template</a>, head to <a href="/admin/" target="_blank"><code>/admin/</code> path on your site</a>, and login.
-  <br>Otherwise, get a feel of the CMS <a href="https://cms-demo.netlify.com/" target="_blank">here</a>.
+  Rádi bychom vám upřímně řekli, že naše dobrodružství teprve začíná! I když zatím nejsou všechna témata zpracovaná, slibujeme vám, že každý týden přidáme nové články a pokrýváme nové aspekty Kubernetes. Takže se na to můžete těšit!
+</div>
+<div class="spaced">
+  Pojď poznávat svět K8s s námi!
 </div>
 </div>
