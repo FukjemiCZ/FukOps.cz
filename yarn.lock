@@ -548,18 +548,14 @@
     prismjs "^1.29.0"
 
 "@vuepress/plugin-register-components@^2.0.0-beta.61":
-  version "2.0.0-beta.61"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-register-components/-/plugin-register-components-2.0.0-beta.61.tgz#b7b6b2fe81c70e40e3fe965d18fef76c315941e5"
-  integrity sha512-3sbJbiY8pZ3/M4TMfyhIn+aGAlXz+xR57I5k4NQnekzJjDxSiCmaet6FjUeUChX6/eREkVBlitfDvXq4t45RKw==
+  version "2.0.0-beta.68"
   dependencies:
     "@vuepress/core" "2.0.0-beta.61"
     "@vuepress/utils" "2.0.0-beta.61"
     chokidar "^3.5.3"
 
 "@vuepress/plugin-search@^2.0.0-beta.61":
-  version "2.0.0-beta.61"
-  resolved "https://registry.yarnpkg.com/@vuepress/plugin-search/-/plugin-search-2.0.0-beta.61.tgz#473804cd576703c16adae49bcaf81cb6f144bbb4"
-  integrity sha512-gcyl3C7WBCC38dp42q6F8s0S/yKjm/yHqmpqtABxwFG+6IhZne0qFI9Q2CaaG/UGSa9UE0xVxeKfcBE1XIyX9A==
+  version "2.0.0-beta.68"
   dependencies:
     "@vuepress/client" "2.0.0-beta.61"
     "@vuepress/core" "2.0.0-beta.61"
@@ -1606,9 +1602,7 @@ vuepress-vite@2.0.0-beta.61:
     "@vuepress/theme-default" "2.0.0-beta.61"
 
 vuepress@^2.0.0-beta.61:
-  version "2.0.0-beta.61"
-  resolved "https://registry.yarnpkg.com/vuepress/-/vuepress-2.0.0-beta.61.tgz#f89741a505b71fbe49dba83d8319b1fd0d45116c"
-  integrity sha512-gpttL0x5ZvI9eTyR/pexBknIAcgrdjAWoiJc7OYd4bIVfwlXAb4GO4A2EwRSX+pIaNOWdcd+sfZA86EMEbrtNg==
+  version "2.0.0-beta.68"
   dependencies:
     vuepress-vite "2.0.0-beta.61"
 
